@@ -2,8 +2,6 @@
 #include <stdlib.h>
 #include "binary_trees.h"
 
-
-
 /**
  * binary_tree_insert_right - This is the name for my function
  * @parent: This is the parent
@@ -16,7 +14,7 @@ binary_tree_t *binary_tree_insert_right(binary_tree_t *parent, int value)
 	binary_tree_t *newnode;
 
 	if (parent == NULL)
-			return (NULL);
+		return (NULL);
 
 	newnode = malloc(sizeof(binary_tree_t));
 
