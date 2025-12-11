@@ -3,7 +3,7 @@
 /**
  * binary_tree_uncle - search for the uncle of a node
  *
- * @tree: Pointer to the node to find the siblings
+ * @node: Pointer to the node to find the siblings
  *
  * Return: The uncle or NULL
  */
@@ -30,4 +30,6 @@ binary_tree_t *binary_tree_uncle(binary_tree_t *node)
 
 		return (node->parent->left);
 	}
+
+	return (NULL);
 }
