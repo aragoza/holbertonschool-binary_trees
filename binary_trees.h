@@ -35,4 +35,11 @@ binary_tree_t *binary_tree_uncle(binary_tree_t *node);
 int binary_tree_balance(const binary_tree_t *tree);
 binary_tree_t *binary_tree_insert_left(binary_tree_t *parent, int value);
 
+/* Ilan (3, 6, 7, 8 and 14) */
+void binary_tree_delete(binary_tree_t *tree);
+void binary_tree_preorder(const binary_tree_t *tree, void (*func)(int));
+void binary_tree_inorder(const binary_tree_t *tree, void (*func)(int));
+void binary_tree_postorder(const binary_tree_t *tree, void (*func)(int));
+int binary_tree_balance(const binary_tree_t *tree);
+
 #endif /* _BINARY_TREES_H_ */
